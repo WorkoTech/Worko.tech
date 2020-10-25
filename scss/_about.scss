@@ -1,22 +1,32 @@
 .about_area{
     padding: 200px 0 270px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     @media #{$mobile_device} {
-        padding: 100px 0;
+        padding: .2rem;
     }
     @media #{$tablet_device} {
-        padding: 100px 0;
+        padding: .2rem;
     }
     @media #{$mid_device} {
         padding: 200px 0 200px 0;
     }
     .single_about_info{
+        margin-top: .8rem;
         position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         h3{
-            font-size: 46px;
+            font-size: 50px;
             line-height: 56px;
             font-weight: 400;
+            text-align: center;
             @media #{$mobile_device}{
-                font-size: 25px;
+                font-size: 43px;
                 line-height: 32px;
             }
             @media #{$tablet_device}{
@@ -28,13 +38,13 @@
             font-size: 17px;
             font-weight: 400;
             color: #727272;
-            margin-top: 10px;
-            margin-bottom: 42px;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
         }
     }
     .about_tutorials{
         @media #{$tablet_device} {
-            margin-top: 30px;
+            margin-top: 4px;
             @include flexbox();
             @include justify-content(space-evenly);
         }
