@@ -27,6 +27,10 @@
             }
         }
         .slider_info{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             @media #{$mobile_device} {
                 text-align: center;
             }
